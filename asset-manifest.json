@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ecom-shopping-cart/static/css/main.082dfb27.css",
-    "main.js": "/Ecom-shopping-cart/static/js/main.c3ea7102.js",
+    "main.js": "/Ecom-shopping-cart/static/js/main.9ec1c4fb.js",
     "index.html": "/Ecom-shopping-cart/index.html",
     "main.082dfb27.css.map": "/Ecom-shopping-cart/static/css/main.082dfb27.css.map",
-    "main.c3ea7102.js.map": "/Ecom-shopping-cart/static/js/main.c3ea7102.js.map"
+    "main.9ec1c4fb.js.map": "/Ecom-shopping-cart/static/js/main.9ec1c4fb.js.map"
   },
   "entrypoints": [
     "static/css/main.082dfb27.css",
-    "static/js/main.c3ea7102.js"
+    "static/js/main.9ec1c4fb.js"
   ]
 }
