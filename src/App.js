@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import { Routes, Route } from "react-router-dom";
 import CardsDetails from "./components/CardsDetails";
-import Cards from "./app/Cards";
+import Cards from "./feature/Cards";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Cards />} />
-        <Route path="/cart" element={<CardsDetails />} />
+        <Route path="/Ecom-shopping-cart" element={<Cards />} />
+        <Route path="/cart/:id" element={<CardsDetails />} />
       </Routes>
     </div>
   );

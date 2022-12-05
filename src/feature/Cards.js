@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 
 import Cardsdata from "../components/CardsData";
 import "../components/style.css";
-import { addProduct } from "../feature/productSlice";
+import { addProduct } from "./productSlice";
 
 function Cards() {
   const dispatch = useDispatch();
@@ -13,7 +13,6 @@ function Cards() {
 
   const sendData = (data) => {
     dispatch(addProduct(data));
-    console.log(data);
   };
 
   return (
